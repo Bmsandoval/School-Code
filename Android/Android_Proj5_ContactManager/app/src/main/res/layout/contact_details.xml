@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/viewName"
+        android:editable="false"
+        android:textSize="30sp"
+        android:text="Name" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/viewPhone"
+        android:editable="false"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Phone" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/viewEmail"
+        android:editable="false"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Email" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/viewAddress"
+        android:editable="false"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Address" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Contact"
+        android:id="@+id/btnDelContact"
+        android:layout_gravity="center_horizontal"
+        android:enabled="true"
+        android:clickable="true"
+        android:textSize="30sp" />
+</LinearLayout>

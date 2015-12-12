@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableChooser"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtAddName"
+        android:hint="Name"
+        android:editable="true"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:enabled="true"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtAddPhone"
+        android:hint="Phone"
+        android:editable="true"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:enabled="true"
+        android:phoneNumber="true"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtAddEmail"
+        android:hint="Email"
+        android:editable="true"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:enabled="true"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtAddAddress"
+        android:hint="Address"
+        android:editable="true"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:enabled="true"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Contact"
+        android:id="@+id/btnAddContact"
+        android:layout_gravity="center_horizontal"
+        android:enabled="true"
+        android:clickable="true"
+        android:textSize="30sp" />
+</LinearLayout>
